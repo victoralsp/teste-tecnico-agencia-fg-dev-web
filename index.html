@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/mediaquery.css">
     <link rel="shortcut icon" href="https://agenciafg.com.br/wp-content/uploads/2021/09/logo-v3.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/05ac79b2f0.js" crossorigin="anonymous"></script>
     <title>Teste - Agência FG</title>
 </head>
@@ -49,19 +51,19 @@
         </section>
         <section id="section-sobre-a-empresa">
             <article id="article-sobre-empresa">
-                <h2>A empresa</h2>
+                <h2 data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease" data-aos-duration="800" data-aos-once="true">A empresa</h2>
                 <div>
-                    <img src="imagens/empresa.png" alt="Homem empresário">
-                    <div id="img-e-p-sobre-empresa">
+                    <img src="imagens/empresa.png" alt="Homem empresário" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease" data-aos-duration="800" data-aos-once="true">
+                    <div id="img-e-p-sobre-empresa" data-aos="fade-zoom-in" data-aos-anchor-placement="center-bottom" data-aos-easing="ease" data-aos-duration="1200" data-aos-once="true">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus pariatur illum aut. Eius debitis unde eum blanditiis voluptate recusandae, repudiandae aut mollitia error, facere aperiam. Perspiciatis accusamus error quos eaque!
                         Quaerat excepturi delectus quis beatae rem, neque facere vitae veniam sunt dolorem ipsum incidunt unde obcaecati est! Magnam, quidem quaerat esse earum, quos, eaque a blanditiis harum sunt illo sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod est ratione itaque molestiae corrupti deserunt dolorum saepe voluptatibus, dolore id, nihil error minus inventore ullam magnam maiores reiciendis. Amet.</p>
                         <a href="#" id="btn-saber-mais">Saiba mais <i class="fa-sharp fa-solid fa-chevron-right btn-sobre-empresa-icon"></i></a>
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum quam illo esse vitae cumque maiores id doloremque, omnis excepturi, magni a aut ea incidunt quis voluptatum accusantium at. Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsam id temporibus harum quibusdam quia porro consequuntur illo ut vel iusto, et maxime laboriosam beatae enim corrupti quod sed non.</p>
+                <p data-aos="fade-zoom-in" data-aos-anchor-placement="center-bottom" data-aos-easing="ease" data-aos-duration="1200" data-aos-once="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum quam illo esse vitae cumque maiores id doloremque, omnis excepturi, magni a aut ea incidunt quis voluptatum accusantium at. Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsam id temporibus harum quibusdam quia porro consequuntur illo ut vel iusto, et maxime laboriosam beatae enim corrupti quod sed non.</p>
             </article>
             <article id="article-equipe">
-                <button id="btn-ver-equipe">Veja nossa equipe <i class="fa-sharp fa-solid fa-chevron-right btn-sobre-empresa-icon"></i></button>
+                <button id="btn-ver-equipe" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" data-aos-duration="800" data-aos-once="true">Veja nossa equipe <i class="fa-sharp fa-solid fa-chevron-right btn-sobre-empresa-icon"></i></button>
                 <div id="equipe-imgs">
                     <img src="imagens/empresa.png" alt="Homem empresário">
                     <img src="imagens/empresa.png" alt="Homem empresário">
@@ -81,5 +83,8 @@
         </section>
     </footer>
     <script src="/js/index.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
