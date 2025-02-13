@@ -1,3 +1,4 @@
+// Slider do banner 
 const slides = document.querySelectorAll('.slides img')
 const dots = document.querySelectorAll('.dot')
 let slideIndex = 0
@@ -9,7 +10,7 @@ function initializeSlider() {
     if(slides.length > 0) {
         slides[slideIndex].classList.add('displaySlide')
         dots[slideIndex].classList.add('active')
-        intervalId = setInterval(nextSlide, 5000)
+        intervalId = setInterval(nextSlide, 3000)
     }
 }
 
@@ -50,7 +51,6 @@ function currentSlide(index) {
 
 
 // Mostra imagens ao clicar no botão 
-
 const btnShowImgs = document.getElementById('btn-ver-equipe')
 const divImages = document.getElementById('equipe-imgs')
 let imgShow = false
