@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediaquery.css">
+    <script src="https://kit.fontawesome.com/05ac79b2f0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div id="container-header">
+            <nav>
+                <a href="#"><img src="imagens/logo.png" alt="logo-empresa"></a>
+                    <ul id="header-ul">
+                        <li><a href="#" id="bold-paragraph">Home</a></li>
+                        <li><a href="#section-sobre-a-empresa">Empresa</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                <a href="#" id="button-contact">+55 11 3564-3099</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section id="banner-empresa">
+            <div id="container-slider">
+                <p class="paragraph-banner">50 anos</p>
+                <p class="paragraph-banner second-p">de mercado</p>
+                <div class="slides">
+                    <img src="imagens/banner.png" class="banner-empresa banner-img-um" alt="banner da empresa">
+                    <img src="imagens/banner.png" class="banner-empresa banner-img-dois" alt="banner da empresa">
+                    <img src="imagens/banner.png" class="banner-empresa banner-img-tres" alt="banner da empresa">
+                </div>
+                <button class="prev" onclick="prevSlide()"><i class="fa-sharp fa-solid fa-chevron-left icone-setas"></i></button>
+                <button class="next" onclick="nextSlide()"><i class="fa-sharp fa-solid fa-chevron-right icone-setas"></i></button>
+
+                <div class="indicators">
+                    <span class="dot" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+            </div>
+        </section>
+        <section id="section-sobre-a-empresa">
+            <article id="article-sobre-empresa">
+                <h2>A empresa</h2>
+                <div>
+                    <img src="imagens/empresa.png" alt="Homem empresário">
+                    <div id="img-e-p-sobre-empresa">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus pariatur illum aut. Eius debitis unde eum blanditiis voluptate recusandae, repudiandae aut mollitia error, facere aperiam. Perspiciatis accusamus error quos eaque!
+                        Quaerat excepturi delectus quis beatae rem, neque facere vitae veniam sunt dolorem ipsum incidunt unde obcaecati est! Magnam, quidem quaerat esse earum, quos, eaque a blanditiis harum sunt illo sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod est ratione itaque molestiae corrupti deserunt dolorum saepe voluptatibus, dolore id, nihil error minus inventore ullam magnam maiores reiciendis. Amet.</p>
+                        <a href="#">Saiba mais <i class="fa-sharp fa-solid fa-chevron-right btn-sobre-empresa-icon"></i></a>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum quam illo esse vitae cumque maiores id doloremque, omnis excepturi, magni a aut ea incidunt quis voluptatum accusantium at. Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsam id temporibus harum quibusdam quia porro consequuntur illo ut vel iusto, et maxime laboriosam beatae enim corrupti quod sed non.</p>
+            </article>
+            <article id="article-equipe">
+                <button id="btn-ver-equipe">Veja nossa equipe <i class="fa-sharp fa-solid fa-chevron-right btn-sobre-empresa-icon"></i></button>
+                <div id="equipe-imgs">
+                    <img src="imagens/empresa.png" alt="Homem empresário">
+                    <img src="imagens/empresa.png" alt="Homem empresário">
+                    <img src="imagens/empresa.png" alt="Homem empresário">
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer id="footer">
+        <section>
+            <div id="endereco">
+                <p>Rua Genérica n°123</p>
+                <p>Centro - Santo André/SP</p>
+            </div>
+            <a href="contato@empresax.com.br" target="blank" id="link-email">contato@empresax.com.br</a>
+            <p id="number-paragraph">+55 11 3564-3099</p>
+        </section>
+    </footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

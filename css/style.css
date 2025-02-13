@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-header: #ececec;
+    --button-title-color: #f86a42;
+    --bg-button-color: #faae00;
+    --font-principal: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+#header {
+    background-color: var(--bg-header);
+}
+
+#container-header {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 1em .5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header img {
+    max-width: 130px;
+}
+
+#header-ul {
+    display: flex;
+    align-items: center;
+    gap: 4.5em;
+}
+
+#header-ul li {
+    list-style: none;
+}
+
+#header-ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #525252;
+}
+
+#bold-paragraph {
+    font-weight: 900;
+}
+
+#button-contact {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: var(--button-title-color);
+    color: white;
+    font-weight: bolder;
+    padding: .8em .9em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    z-index: 1;
+}
+
+#button-contact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #9e394f;
+    z-index: -1;
+    transition: right .7s ease;
+}
+
+#button-contact:hover::after {
+    right: 0;
+    transform: rotate(3deg) scale(1.5);
+}
+
+#container-slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.banner-empresa {
+    width: 100vw;
+    display: none;
+}
+
+.banner-img-dois {
+    filter: saturation(100%)
+}
+.banner-img-dois {
+    filter: blur(5px);
+}
+
+.banner-empresa.displaySlide {
+    display: block;
+    animation: fade 1s ease;
+}
+
+.paragraph-banner {
+    font-size: 3.8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    top: 33%;
+    left: 28%;
+    z-index: 999;
+}
+
+.second-p {
+    padding-top: 1.2em;
+}
+
+.icone-setas {
+    position: absolute;
+    font-size: 5.5em;
+    cursor: pointer;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fa-chevron-left {
+    left: 280px;
+}
+.fa-chevron-right {
+    right: 280px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.indicators {
+    text-align: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 1px;
+    background-color: #ffffff;
+    border: 1px solid #525252;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #525252;
+}
+
+.dot:hover {
+    background-color: #555;
+}
+
+#article-sobre-empresa {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#article-sobre-empresa > h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: var(--button-title-color);
+    margin: 1em 0 .5em;
+}
+
+#article-sobre-empresa > div {
+    display: flex;
+    gap: 3em;
+    margin: 2em 0;
+}
+
+#article-sobre-empresa img {
+    width: 600px;
+}
+
+#article-sobre-empresa p {
+    color: #272727;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+
+
+#img-e-p-sobre-empresa a {
+    background-color: var(--bg-button-color);
+    font-weight: 700;
+    color: white;
+    font-size: 1.2em;
+    padding: .5em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-sobre-empresa-icon {
+    font-size: .5em;
+    transform: translateY(-2px);
+    padding-left: 5px;
+}
+
+#article-equipe {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#btn-ver-equipe {
+    background-color: var(--bg-button-color);
+    font-weight: 700;
+    color: white;
+    font-size: 1.2em;
+    padding: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+#equipe-imgs {
+    text-align: center;
+    display: none;
+}
+#equipe-imgs.active {
+    display: block;
+}
+
+#equipe-imgs img {
+    width: 250px;
+    margin: 1em .3em;
+}
+
+#footer section {
+    display: flex;
+    max-width: 850px;
+    margin: 3em auto 2em;
+    justify-content: space-between;
+}
+
+#endereco p {
+    font-size: 1em;
+    color: #414141;
+}
+
+#link-email {
+    font-weight: 900;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: .9em;
+}
+
+#number-paragraph {
+    font-weight: 900;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-style: italic;
+}

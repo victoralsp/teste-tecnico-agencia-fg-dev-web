@@ -1,0 +1,13 @@
+Objetivo:
+
+Desenvolver em HTML, CSS e Js/Jquery o layout enviado.
+
+Nesta página do site, temos algumas intruções:
+
+- Fique livre para criar hover nos botões; 
+
+- Banner principal rotativo;
+
+
+- Uma animação no botão "Veja nossa equipe";
+	- As fotos da equipe inicialmente estarão ocultas e apenas vão aparecer quando o usuário clicar no botão "Veja nossa equipe".
