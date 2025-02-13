@@ -36,6 +36,10 @@ nav {
     max-width: 130px;
 }
 
+#header-ul-mobile {
+    display: none;
+}
+
 #header-ul {
     display: flex;
     align-items: center;
@@ -185,10 +189,12 @@ nav {
     display: flex;
     gap: 3em;
     margin: 2em 0;
+    align-items: center;
 }
 
 #article-sobre-empresa img {
     width: 600px;
+    height: fit-content;
 }
 
 #article-sobre-empresa p {
@@ -227,7 +233,7 @@ nav {
 }
 
 #article-equipe {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -258,7 +264,9 @@ nav {
 }
 
 #equipe-imgs.active {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #equipe-imgs img {

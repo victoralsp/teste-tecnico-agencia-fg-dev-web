@@ -1,3 +1,298 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1368px) {  
+    #header img {
+        max-width: 100px;
+    }
     
+    #button-contact {
+        font-size: 1.2em;
+    }
+
+    .paragraph-banner {
+        font-size: 3.2em;
+    }
+
+    .icone-setas {
+        font-size: 5em;
+    }
+
+    .fa-chevron-left {
+        left: 200px;
+    }
+    .fa-chevron-right {
+        right: 200px;
+    }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1367px) {
+    .fa-chevron-left {
+        left: 120px;
+    }
+    .fa-chevron-right {
+        right: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .fa-chevron-left {
+        left: 60px;
+    }
+    .fa-chevron-right {
+        right: 60px;
+    }
+
+    .paragraph-banner {
+        font-size: 2.2em;
+    }
+
+    #article-sobre-empresa {
+        margin: 0 1em;
+    }
+
+    #article-sobre-empresa p {
+       font-size: .9em;
+        margin-bottom: 1em;
+    }
+
+    #img-e-p-sobre-empresa a {
+        width: 100%;
+    }
+
+    #btn-ver-equipe {
+        width: 250px;
+        margin: 0 auto .7em;
+    }
+
+    #footer section {
+        align-items: center;
+        margin: 0 1em;
+        justify-content: space-between;
+    }
+}
+    
+    @media screen and (min-width: 400px) and (max-width: 767px) {
+        #header img {
+            max-width: 80px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #button-contact {
+            font-size: 1em;
+            margin: 1em 0;
+        }
+
+        #header-ul {
+            display: none;
+        }
+
+        #header-ul-mobile {
+            display: flex;
+            align-items: center;
+            gap: 4.5em;
+        }
+        
+        #header-ul-mobile li {
+            list-style: none;
+        }
+        
+        #header-ul-mobile li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #525252;
+        }
+
+        .paragraph-banner {
+            font-size: 1em;
+        }
+    
+        .icone-setas {
+            font-size: 2.8em;
+            transform: translateY(-100%);
+        }
+    
+        .fa-chevron-left {
+            left: 50px;
+        }
+        .fa-chevron-right {
+            right: 50px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+        }
+
+        #article-sobre-empresa {
+            max-width: 900px;
+            margin: 0 1em;
+        }
+
+        #article-sobre-empresa > div {
+            display: flex;
+            flex-direction: column;
+            gap: 3em;
+            margin: 2em 0;
+            align-items: center;
+        }
+
+        #article-sobre-empresa > h2 {
+            font-size: 1.4em;
+            text-transform: uppercase;
+            color: var(--button-title-color);
+            margin: 1em 0 .5em;
+        }
+        
+        #article-sobre-empresa img {
+            width: 100%;
+            max-width: 600px;
+            height: fit-content;
+        }
+        
+        #article-sobre-empresa p {
+            color: #272727;
+            letter-spacing: 1px;
+            margin-bottom: 2em;
+        }
+
+        #img-e-p-sobre-empresa a {
+            padding: .5em 1em;
+        }
+
+        #equipe-imgs.active {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #equipe-imgs img {
+            width: 90%;
+            margin: 0 auto;
+            padding: .5em;
+        }
+
+        #footer section {
+            flex-direction: column;
+            gap: 1em;
+        }
+    }
+
+    @media screen and (max-width: 399px) {
+        #header img {
+            max-width: 80px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #button-contact {
+            font-size: 1em;
+            margin: 1em 0;
+        }
+
+        #header-ul {
+            display: none;
+        }
+
+        #header-ul-mobile {
+            display: flex;
+            align-items: center;
+            gap: 2em;
+        }
+        
+        #header-ul-mobile li {
+            list-style: none;
+        }
+        
+        #header-ul-mobile li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #525252;
+        }
+
+        .paragraph-banner {
+            font-size: 1em;
+        }
+    
+        .icone-setas {
+            font-size: 2em;
+            transform: translateY(-100%);
+        }
+    
+        .fa-chevron-left {
+            left: 50px;
+        }
+        .fa-chevron-right {
+            right: 50px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+        }
+
+        #article-sobre-empresa {
+            max-width: 900px;
+            margin: 0 1em;
+        }
+
+        #article-sobre-empresa > div {
+            display: flex;
+            flex-direction: column;
+            gap: 3em;
+            margin: 2em 0;
+            align-items: center;
+        }
+
+        #article-sobre-empresa > h2 {
+            font-size: 1.4em;
+            text-transform: uppercase;
+            color: var(--button-title-color);
+            margin: 1em 0 .5em;
+        }
+        
+        #article-sobre-empresa img {
+            width: 100%;
+            max-width: 600px;
+            height: fit-content;
+        }
+        
+        #article-sobre-empresa p {
+            color: #272727;
+            letter-spacing: 1px;
+            margin-bottom: 2em;
+        }
+
+        #img-e-p-sobre-empresa a {
+            padding: .5em;
+            width: 100%;
+        }
+
+        #equipe-imgs.active {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #equipe-imgs img {
+            width: 90%;
+            margin: 0 auto;
+            padding: .5em;
+        }
+
+        #btn-ver-equipe {
+            width: 90%;
+        }
+
+        #footer section {
+            flex-direction: column;
+            gap: 1em;
+        }
+    }
+
