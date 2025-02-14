@@ -282,7 +282,6 @@ nav {
     margin: 0 auto .7em;
     border: none;
     cursor: pointer;
-    overflow: hidden;
     transition: .5s ease;
 }
 
