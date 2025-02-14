@@ -124,13 +124,18 @@ nav {
     padding-top: 1.2em;
 }
 
+.prev,
+.next {
+    background-color: transparent;
+    border: none;
+}
 .icone-setas {
     position: absolute;
     font-size: 5.5em;
     cursor: pointer;
     color: #ffffff;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); 
 }
 
 .fa-chevron-left {
@@ -251,6 +256,7 @@ nav {
     margin: 0 auto .7em;
     border: none;
     cursor: pointer;
+    overflow: hidden;
     transition: .5s ease;
 }
 
