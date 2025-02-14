@@ -46,15 +46,41 @@ nav {
     gap: 4.5em;
 }
 
+#header-ul {
+    display: flex;
+    align-items: center;
+    gap: 4.5em;
+}
+
 #header-ul li {
     list-style: none;
+    position: relative;
 }
 
 #header-ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #525252;
+    padding-bottom: .2em;
+    position: relative; 
 }
+
+#header-ul li a::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: var(--button-title-color); 
+    transition: width .6s ease; 
+}
+
+#header-ul li a:hover::after {
+    width: 100%; 
+}
+
+
 
 #bold-paragraph {
     font-weight: 900;
