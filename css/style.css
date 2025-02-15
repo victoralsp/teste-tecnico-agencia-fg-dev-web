@@ -290,17 +290,17 @@ nav {
 }
 
 #equipe-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     max-height: 0;
     overflow: hidden;  
     opacity: 0; 
-    transition: 1.5s ease; 
+    transition: 1s ease; 
 }
 
 #equipe-imgs.active {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     max-height: 500px; 
     opacity: 1;
 }
