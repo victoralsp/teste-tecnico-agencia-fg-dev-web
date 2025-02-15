@@ -3,8 +3,8 @@ Esse projeto foi desenvolvido como parte do processo seletivo para o estágio em
 
 Funcionalidades:
 
-Banner Rotativo: Um banner que troca de imagens automaticamente em intervalos de tempo definidos. <br>
-Efeito Hover nos Botões: Ao passar o mouse sobre os botões, ocorre uma animação que altera o estilo (como cor ou escala). <br>
+Banner Rotativo: Um banner que troca de imagens automaticamente em intervalos de tempo definidos ou clicando nos botões. <br>
+Efeito Hover nos Botões: Ao passar o mouse sobre os botões, ocorre uma animação que altera o estilo. <br>
 Botão "Veja Nossa Equipe": Ao clicar, três imagens da equipe da empresa são mostradas.
 
 Tecnologias Utilizadas:
