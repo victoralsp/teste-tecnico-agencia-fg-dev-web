@@ -291,13 +291,18 @@ nav {
 
 #equipe-imgs {
     text-align: center;
-    display: none;
+    max-height: 0;
+    overflow: hidden;  
+    opacity: 0; 
+    transition: 1.5s ease; 
 }
 
 #equipe-imgs.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-height: 500px; 
+    opacity: 1;
 }
 
 #equipe-imgs img {
