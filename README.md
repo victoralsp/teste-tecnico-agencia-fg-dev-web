@@ -5,7 +5,7 @@ Funcionalidades:
 
 Banner Rotativo: Um banner que troca de imagens automaticamente em intervalos de tempo definidos. <br>
 Efeito Hover nos Botões: Ao passar o mouse sobre os botões, ocorre uma animação que altera o estilo (como cor ou escala). <br>
-Botão "Veja Nossa Equipe": Ao clicar, três imagens da equipe da empresa são mostradas, com animações e transições suaves.
+Botão "Veja Nossa Equipe": Ao clicar, três imagens da equipe da empresa são mostradas.
 
 Tecnologias Utilizadas:
 
